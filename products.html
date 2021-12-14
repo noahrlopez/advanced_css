@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Home Page">
+    <title>Advanced CSS Challenge</title>
+
+    <style>
+        .productContainer {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            padding-left: 10em;
+        }
+
+        .product {
+            padding: 1em;
+        }
+
+        .product > img {
+            height: 300px;
+            width: 200px;
+        }
+
+        .center {
+            align-self: center;
+            justify-self: center;
+        }
+    </style>
+
+    <div class="productContainer">
+        <div class="product">
+            <img src="https://media.sweetwater.com/api/i/q-85__ha-142d8acca2c752a6__hmac-fec89a95470ba747a7af232365cb785c2f1625a4/images/items/1800/THBB10-xlarge.jpg" alt="THBB10"/>
+            <h2>Ibanez THBB10</h2>
+            <p>$1,499.99</p>
+            <button><a href="https://www.sweetwater.com/store/detail/THBB10--ibanez-tim-henson-polyphia-signature-thbb10-black-gloss">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://media.sweetwater.com/api/i/q-85__ha-3090123a05347f00__hmac-22b7045ae2d28c01f61a4ecb6d9452f088de6f57/images/items/1800/ICHI10VWM-xlarge.jpg" alt="ICHI10"/>
+            <h2>Ibanez ICHI10</h2>
+            <p>$999.99</p>
+            <button><a href="https://www.sweetwater.com/store/detail/ICHI10VWM--ibanez-ichika-signature-ichi10-vintage-white-matte">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://media.sweetwater.com/api/i/f-webp__q-82__ha-c50a79789310af6a__hmac-f4bcb85c3b010aa06fd3f1c5aba39ba0a3d9e807/images/items/750/JEM7VPWH-large.jpg.auto.webp" alt="JEM7VP"/>
+            <h2>Ibanez JEM7VP</h2>
+            <p>$1,799.99</p>
+            <button><a href="https://www.sweetwater.com/store/detail/JEM7VPWH--ibanez-steve-vai-signature-premium-jem7vp-white">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://media.sweetwater.com/api/i/f-webp__q-82__ha-3207769940de7ac2__hmac-8e4ed1d316759b8da6fde9fc9d63bc4cf3a57b39/images/items/750/JS1CR-large.jpg.auto.webp" alt="JS1CR"/>
+            <h2>Ibanez JS1CR</h2>
+            <p>$4,999.99</p>
+            <button><a href="https://www.sweetwater.com/store/detail/JS1CR--ibanez-joe-satriani-signature-js1cr-chrome-boy">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://media.sweetwater.com/api/i/f-webp__q-82__ha-1d77132d3bf2e95f__hmac-dab60eb26809f879e704f7ea6a3317ac4c06a5ee/images/items/750/MAR10LMM-large.jpg.auto.webp" alt="MAR10"/>
+            <h2>Ibanez MAR10</h2>
+            <p>$1,499.99</p>
+            <button><a href="https://www.sweetwater.com/store/detail/MAR10LMM--ibanez-mario-camarena-chon-signature-mar10-lavender-metallic-matte">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://media.sweetwater.com/api/i/f-webp__q-82__ha-1116a8d45d5a36a7__hmac-43f2c512a387aacf25c568190a0497b8176b7176/images/items/750/SLM10TRM-large.jpg.auto.webp" alt="SLM10"/>
+            <h2>Ibanez SLM10</h2>
+            <p>$1,499.99</p>
+            <button><a href="https://www.sweetwater.com/store/detail/SLM10TRM--ibanez-scott-lepage-polyphia-signature-slm10-transparent-red-matte">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://media.sweetwater.com/api/i/f-webp__q-82__ha-fb317839bf01640c__hmac-3a79936c5e276ebf56591fa004b4d20a36956315/images/items/750/PS120BK-large.jpg.auto.webp" alt="PS120"/>
+            <h2>Ibanez PS120</h2>
+            <p>$899.99</p>
+            <button><a href="https://www.sweetwater.com/store/detail/PS120BK--ibanez-ps120-paul-stanley-signature-black">Buy Now</a></button>
+        </div>
+        <div class="product">
+            <img src="https://media.sweetwater.com/api/i/f-webp__q-82__ha-6ac1e9f53abeadea__hmac-8ae59545ad6a64d4f251a54a3a52366d4b6f2109/images/items/750/YY10SGS-large.jpg.auto.webp" alt="YY10"/>
+            <h2>Ibanez YY10</h2>
+            <p>$1099.99</p>
+            <button><a href="https://www.sweetwater.com/store/detail/YY10SGS--ibanez-yvette-young-signature-yy10-slime-green-sparkle">Buy Now</a></button>
+        </div>
+    </div>
